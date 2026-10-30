@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "quickcommands",
+	"version": "${version}",
+	"name": "Quick Commands",
+	"description": "Bind any chat command (like /rtp, /skill, /home) to a key and run it instantly.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.quickcommands.QuickCommandsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
